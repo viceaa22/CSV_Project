@@ -3,8 +3,8 @@ import csv
 from datetime import datetime
 
 def main():
-    open_file = open('death_valley_2018_simple.csv', "r")  
-    open_file2 = open("sitka_weather_2018_simple.csv", "r") 
+    open_file = open('P:\Spring 2020\Advanced Python\CSV_Project\matplotlib_csv\death_valley_2018_simple.csv', "r")  
+    open_file2 = open("P:\Spring 2020\Advanced Python\CSV_Project\matplotlib_csv\sitka_weather_2018_simple.csv", "r") 
 
     DV_file = csv.reader(open_file, delimiter=",")  
     SA_file = csv.reader(open_file2, delimiter=',')  
@@ -94,6 +94,6 @@ def convert(weird_list):
     
     return new 
 
-#print(highs[:10]) 
+#print(highs[:10])
 
 main()

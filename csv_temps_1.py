@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import csv
 
-open_file = open("sitka_weather_07-2018_simple.csv", "r")
+open_file = open("P:\Spring 2020\Advanced Python\CSV_Project\matplotlib_csv\sitka_weather_07-2018_simple.csv", "r")
 
 csv_file = csv.reader(open_file, delimiter = ",")
 
